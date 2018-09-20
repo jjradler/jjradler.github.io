@@ -13,5 +13,8 @@ description: >
   Get in touch with the proprietor!
 # Setting `menu` will generate an entry in the sidebar for this tag.
 menu: true
-order: 5
+order: 6
 ---
+##Get in touch with J. here!
+_Add contact information_
+

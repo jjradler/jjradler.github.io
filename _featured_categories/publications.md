@@ -15,3 +15,9 @@ description: >
 menu: true
 order: 4
 ---
+##Publications
+_My list of published articles will go here_
+
+##Presentations
+_My list of posters and talks goes here, too._
+

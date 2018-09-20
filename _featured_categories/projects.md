@@ -14,5 +14,7 @@ description: >
   completed
 # Setting `menu` will generate an entry in the sidebar for this tag.
 menu: true
-order: 5
+order: 4
 ---
+##A fun list of J.'s recent projects and crazy ideas.
+_Lots of good stuff coming soon!_

@@ -15,3 +15,6 @@ description: >
 menu: true
 order: 3
 ---
+##List of J.'s Research Interests and Current Fascinations
+_Plenty_ of stuff to put here!
+
