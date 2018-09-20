@@ -20,8 +20,8 @@ image: /assets/img/blog/hydejack-8.png
 menu: true
 order: 2
 ---
-# Joseph James Radler
+## Joseph James Radler
 ### (Or "J." to his friends.)
 
-####PAGE UNDER CONSTRUCTION
+#### PAGE UNDER CONSTRUCTION
 _... but not for long, we hope..._

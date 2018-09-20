@@ -16,8 +16,8 @@ description: >
 menu: true
 order: 1
 ---
-##The Discourse Section
-###Here we will be discussing any manner of subjects related to the physical sciences.
+## The Discourse Section
+### Here we will be discussing any manner of subjects related to the physical sciences.
 _More coming soon, promise!_
 
 Until then, please enjoy this lovely Jekyll theme!
