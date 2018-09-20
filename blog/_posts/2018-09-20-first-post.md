@@ -2,7 +2,7 @@
 layout: post
 title: First Post!
 description: >
-  My first post on the new Jekyll/Hydejack blog hosted no GitHub.io!
+  My first post on the new Jekyll/Hydejack blog hosted on GitHub.io!
 ---
 First post! Until recently I had not realized the importance of having an online presence as a scientist -- especially as an aspiring researcher. I was inspired to create this site by a number of people who have contributed greatly to my education through their scientific blogging: <a href="http://joshuagoings.com">Joshua Goings</a> and <a href="https://joaquinbarroso.com" target="_blank" rel="noopener">Prof. Joaquin Barroso</a> to name a couple. This site is designed to highlight the things I find most interesting in a wide variety of fields. As I add additional information about my various projects and musings, I will add additional categories which may be viewed from the sidebar to your left.
 
