@@ -7,7 +7,6 @@ title: Contact
 menu: true
 order: 6
 ---
-# Contact
 Please feel free to e-mail me if you would like to discuss any of the subjects
 on my site in detail. I can be reached most easily by
 <a href="mailto:jjradler@uw.edu"> my UW institutional e-mail</a>. I can also be
@@ -27,5 +26,6 @@ connect with you on there as well!
 
 <strong>Wordpress:</strong>      <a href="http://blogs.uw.edu/jjradler">Change
 Is The Only Constant (Classic Version)</a>
+
 ---
 

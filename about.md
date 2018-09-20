@@ -22,6 +22,7 @@ order: 2
 ---
 # Joseph James Radler
 (Or "J." to his friends.)
+
 ---
 
 ## Scientific Interests
@@ -65,7 +66,7 @@ J. also has a deep interest in making the strange structures of quantum mechanic
 more accessible for everyone <!--more Read More!--> and devotes a great deal of thought to various representations of quantum phenomena. He also is very curious about everything having to do with quantum mechanics, quantum information theory, mathematics, as well as computer hardware and software. Some of his recent side-projects have explored:
 <ul style="list-style-type: disc">
  	<li>Disability resources and tools for dyslexic and dyscalculic people pursuing and working in STEM research roles</li>
- 	<li>Fun templates in LaTeX</li>
+ 	<li>Fun templates in \LaTeX</li>
  	<li>Mathematical pedagogy</li>
  	<li>Topology</li>
  	<li>Abstract Algebra</li>
