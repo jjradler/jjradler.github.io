@@ -31,10 +31,10 @@ and blue, magenta and green, etc. _see figure_)
 <a title="DanPMK at English Wikipedia [GFDL (http://www.gnu.org/copyleft/fdl.htm
 l) or CC BY-SA 3.0
  (https://creativecommons.org/licenses/by-sa/3.0)], from Wikimedia Commons"
-href="https://commons.wikimedia.org/wiki/File:RBG_color_wheel.svg"><p><img
+href="https://commons.wikimedia.org/wiki/File:RBG_color_wheel.svg"><img
 width="512" alt="RBG color wheel" src="https://upload.wikimedia.org/wikipedia/
 commons/thumb/a/ab/RBG_color_wheel.svg/512px-RBG_color_wheel.svg.png" style=
-"float:right;width:150px;height:125px"></p></a>
+"float:right;width:150px;height:125px"></a>
 
 The user will be able to install the package, choose a good color scheme for
 their use, and easily tweak a number of syntax highlighting settings in a Python-
@@ -58,7 +58,6 @@ with respect to time.)
 
 I will explain the methodology and construction of the package in a later
 blog post.
-
 #### Coming Someday...
 Eventually I'm going to refactor this into something a little faster, like Julia
 or C++, but for the time being, this has been quite useful for me as a
@@ -78,7 +77,6 @@ of my colleagues have called it:
 It's set up so there's high contrast and easy readability and differentiation of
 various filetypes, directories, etc. There is also an obscene number of color-
 schemes for Vim/Neovim in this repo.
-
 #### Coming soon
 Automated global system configuration and tool installation.
 Admittedly, this one is a long way off at the moment. I have a lot of tools, and
@@ -109,7 +107,6 @@ mechanics. When I get a chance I will generalize it a bit and make it more
 usable for a wider audience.
 
 [PopTent Project Builder on GitHub!](http://github.com/jjradler/pop-tent)
-
 #### Also coming soon!
 Setup of a TeX folder and the appropriate .gitignore to
 automate the initialization of your publications and documentation. Is there a
@@ -153,7 +150,6 @@ Other parts of this kit include:
 [Automating the boring stuff in Computational Research on GitHub!](http://github.com/jjradler/gaussian_automation)
 
 ---
-
 ### I've also got this crazy notion...
 To start refactoring some open-source numerical packages that Julia needs in its
 standard library. I don't know which ones to start with --- any suggestions?
