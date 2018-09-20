@@ -29,4 +29,4 @@ assembled for your science-ing pleasure!_
 _Some things I've found out the hard way, digested so you don't have to wrestle with them!_
 
 ## Upcoming Writing Project Ideas
-_Some fun things I work on in my "free time"..._
+_Some fun things I work on in my free time..._
