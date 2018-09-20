@@ -36,7 +36,7 @@ tagline:               >
 keywords:              []
 
 # Used by jekyll-seo-tag.
-logo:                  /assets/icons/jjradler_circle.jpg
+logo:                  /assets/img/jjradler_circle.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -45,6 +45,7 @@ author:
   email:               jjradler@gmail.com
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
+  picture:             /assets/img/jjradler_circle.jpg
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             >
@@ -225,6 +226,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-titles-from-headings
+  - jekyll-avatar
 
 # Theme
 # ---------------------------------------------------------------------------------------
