@@ -3,21 +3,22 @@
 # You can change `author1` to your shortname.
 author1:
   # Replace <...> with your own (remove the < >)
-  name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+  name:              Joseph James "J." Radler
+  email:             jjradler@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-    Open `_data/authors.yml` to edit this text.
+  about:
+    J. Radler is currently a graduate teaching assistant at the University of
+    Washington in sunny Seattle, Washington, USA. His professional interests
+    include quantum dynamics, numerical simulation, mathematical modeling, and
+    science communication. What little free time he has is devoted to hacking
+    machines to do his bidding, art of all media, coffee of all cultivars,
+    books of all kinds, and his fuzzball cats.
 
   # This photo will be used in the about section.
   picture:
-    path:            https://placehold.it/128x128
+    path:            /assets/img/jjradler_circle.jpg
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
       1x:            https://placehold.it/128x128
@@ -26,10 +27,10 @@ author1:
   # Social media icons in sidebar.
   # Comment/uncommet to show/hide. Rearrange to change the order in which they appear.
   social:
-    twitter:         jekyllrb
-    github:          qwtel/hydejack
+    # twitter:         jekyllrb
+    github:          jjradler
     # download:        <url>
-    # email:           <mail@domain.tld>
+    email:           jjradler@gmail.com
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
@@ -37,10 +38,10 @@ author1:
     # youtube:         <string_string_string>
     # vimeo:           <username>
     # vine:            <username>
-    # spotify:         <user>/<number>
+    spotify:         1265151748?si=dffVYclrTRCBbxeAic0Osw
     # soundcloud:      <username>
     # lastfm:          <username>
-    # instagram:       <username>
+    instagram:       husky_alchemist
     # flickr:          <string@string>
     # 500px:           <username>
     # dribbble:        <username>
@@ -58,7 +59,7 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    # linkedin:        <firstname-lastname-string>
+    linkedin:        <firstname-lastname-string>
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
