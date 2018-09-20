@@ -16,9 +16,4 @@ description: >
 menu: true
 order: 1
 ---
-# Blog
-
-### Here we will be discussing any manner of subjects related to the physical sciences.
-_More coming soon, promise!_
-
-Until then, please enjoy this lovely Jekyll theme!
+Here we will be discussing any manner of subjects related to the physical sciences.
