@@ -16,5 +16,11 @@ description: >
 menu: true
 order: 4
 ---
-## A fun list of J.'s recent projects and crazy ideas.
+# Projects
+### A fun list of J.'s recent projects and crazy ideas.
 _Lots of good stuff coming soon!_
+### Encalculate
+
+### Time-Frequency Analysis Visualization Toolkit
+
+### Gaussian 16 Input-Output Syntax Markup for Vim/Neovim
