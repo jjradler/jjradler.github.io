@@ -22,8 +22,8 @@ _My list of published articles will go here_
 _My list of posters and talks goes here, too._
 
 ## Whitepapers
-_A fun list (with links!) of various whitepapers on technical subjects. My own special blend
-assembled for your science-ing pleasure!_
+_A fun list with links of various whitepapers on technical subjects. My own special blend
+assembled for your science-ing pleasure._
 
 ## Tutorials
 _Some things I've found out the hard way, digested so you don't have to wrestle with them!_
