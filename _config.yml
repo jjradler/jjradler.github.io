@@ -19,24 +19,23 @@ baseurl:               ''
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack Starter Kit
+title:                 Change is the Only Constant
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  A Jekyll theme with JavaScript powers. "Best Theme by a Mile".
-  Combines the best of static sites and modern web apps.
-  Open `_config.yml` to edit this text.
-
+  The personal website of Joseph James "J." Radler, containing thoughts,
+  notes, and derivations of concepts ranging from quantum dynamics to scientific
+  policy and technology.
 # A shorter description for the sidebar.
 tagline:               >
-  Open `_config.yml` to edit this text.
+  Welcome to my mind...
 
 # A list of keywords for your blog.
 keywords:              []
 
 # Used by jekyll-seo-tag.
-logo:                  /assets/icons/icon.png
+logo:                  /assets/icons/jjradler_circle.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -49,7 +48,7 @@ author:
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             >
   © 2018. All rights reserved.
-  Open `_config.yml` to edit this text.
+  Joseph J. Radler, M. S.     Computational Quantum Chemist
 
 # Add links to the footer.
 # Typically you'll want to link to your impress, cookies or privacy policy, etc.
@@ -71,7 +70,7 @@ paginate_path:         /page-:num/
 # ========================================================================================
 
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
+accent_image:          /assets/img/js_notebook_spins.JPG
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
