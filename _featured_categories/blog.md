@@ -1,4 +1,5 @@
 ---
+# file: _featured_categories/blog.md
 # Featured tags need to have the `list` layout.
 layout: list
 
