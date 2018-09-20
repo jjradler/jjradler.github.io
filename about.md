@@ -41,7 +41,7 @@ Seattle, Washington. His research foci include, but are by no means limited to:
 ---
 
 ## A (Very Abbreviated) Biography
-J. grew up in various apartments in the North and Northwest suburbs of Chicago, Illinois. Despite being highly mobile, it was a home full of books, music, films, and art supplies. Taking to the arts, literature, and science all at once with gusto at a very young age, he wanted to be everything from a physician to an astronaut; a painter to a professional guitarist; a quiet literary mind and a rockstar.<!--more Get to know me better!-->
+J. grew up in various apartments in the North and Northwest suburbs of Chicago, Illinois. Despite being highly mobile, it was a home full of books, music, films, and art supplies. Taking to the arts, literature, and science all at once with gusto at a very young age, he wanted to be everything from a physician to an astronaut; a painter to a professional guitarist; a quiet literary mind and a rockstar.
 
 Strangely enough, after self-studying foreign languages as well as various techniques with many different artistic media in high school, he fell in love with chemistry and physics thanks to an excellent team of teachers at Buffalo Grove High School in Buffalo Grove, Illinois.  Mr. Ken Indeck taught him that he had a knack for geometry and made it enjoyable, priming J.'s mind for later endeavors. Mr. Al Kane taught him that he -- yes, the weird art kid -- could do physics, and that he wasn't just teaching the coffee pot at the back of the room. Then, Mr. Jim Behymer taught him how truly enjoyable mastering matter could be in AP Chemistry. Everyone else thought he was going to go to art school...
 
@@ -63,7 +63,7 @@ Stay tuned on the Blog for more adventures in computational and theoretical chem
 
 <h1>Other Scientific Interests</h1>
 J. also has a deep interest in making the strange structures of quantum mechanics
-more accessible for everyone <!--more Read More!--> and devotes a great deal of thought to various representations of quantum phenomena. He also is very curious about everything having to do with quantum mechanics, quantum information theory, mathematics, as well as computer hardware and software. Some of his recent side-projects have explored:
+more accessible for everyone and devotes a great deal of thought to various representations of quantum phenomena. He also is very curious about everything having to do with quantum mechanics, quantum information theory, mathematics, as well as computer hardware and software. Some of his recent side-projects have explored:
 <ul style="list-style-type: disc">
  	<li>Disability resources and tools for dyslexic and dyscalculic people pursuing and working in STEM research roles</li>
  	<li>Fun templates in \LaTeX</li>
@@ -94,7 +94,7 @@ another recent interest (are we noticing a theme?)
 J. also really enjoys wrenching on machines, and has a passion for German
 automobiles. However, having been a graduate student and not being made of
 money -- that means Volkswagens! Although he enjoys hacking and modding all
-sorts of machines (computers, cars, motorcycles, household appliances...
+sorts of machines (computers, cars, motorcycles, household appliances...)
 
 Finally, as alluded to previously, J. speaks several languages with varying
 degrees of fluency and literacy. He speaks, reads, and writes Japanese
