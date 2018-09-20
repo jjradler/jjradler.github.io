@@ -14,13 +14,13 @@ description: >
 hide_description: true
 
 # TODO
-image: /assets/img/blog/hydejack-8.png
+image: /assets/img/blog/jjradler_circle.png
 
 # Setting `menu` will generate an entry in the sidebar.
 menu: true
 order: 2
 ---
-## Joseph James Radler
+# Joseph James Radler
 ### (Or "J." to his friends.)
 
 #### PAGE UNDER CONSTRUCTION
