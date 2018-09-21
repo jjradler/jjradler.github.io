@@ -11,9 +11,10 @@ slug: blog
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
+  ![image blackboard banner here](/assets/img/header-img/blackboard_header_sepia.jpg)
   The rantings of someone who may know enough to be dangerous and not enough to stop...
 # Setting `menu` will generate an entry in the sidebar for this tag.
 menu: true
 order: 1
 ---
-Here we will be discussing any manner of subjects related to the physical sciences.
+Let's discuss!

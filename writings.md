@@ -10,6 +10,7 @@ slug: writings
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
+  ![image colorful quantum books here](/assets/img/header-img/colorful_quantum_bookshelf.jpg)
   A complete list of my writings with brief summaries and hopefully some
   illustrations.
 # Setting `menu` will generate an entry in the sidebar for this tag.

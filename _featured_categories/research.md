@@ -10,11 +10,11 @@ slug: research
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
+  ![image notebook cover here](/assets/img/header-img/notebookcover.jpg)
   Brief summaries of my various research interests.
 # Setting `menu` will generate an entry in the sidebar for this tag.
 menu: true
 order: 3
 ---
-##List of J.'s Research Interests and Current Fascinations
-_Plenty_ of stuff to put here!
+The list of J.'s Research Interests and Current Fascination!
 

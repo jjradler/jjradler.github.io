@@ -10,7 +10,8 @@ slug: projects
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  Summaries and links to rojects I am currently working on or have recently
+  ![image colorful math books](/assets/img/header-img/sharp_colorful_mathbooks.jpg)
+  Summaries and links to projects I am currently working on or have recently
   completed
 # Setting `menu` will generate an entry in the sidebar for this tag.
 menu: true

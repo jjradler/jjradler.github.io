@@ -9,9 +9,9 @@ title: About Me
 # Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-  A short bio and some fun facts about Joseph J. "J." Radler
+  ![image transformation notes header](/assets/img/header-img/transformation_notes_header.jpg)
 # You can show the description on the page by deleting this line:
-hide_description: true
+hide_description: false
 
 # TODO
 image: /assets/img/blog/jjradler_circle.png
@@ -47,7 +47,7 @@ Strangely enough, after self-studying foreign languages as well as various techn
 
 J. then applied to a number of universities for chemistry, eventually attending Purdue University in West Lafayette, Indiana for a dual-major track in Chemistry and Materials Science Engineering.
 
-Things got rough once he got there, however. He was kicked out of Purdue twice for academic deficiency in a three year span, primary due to deficiencies in mathematics and computer programming courses. Eventually, he found a highly visual/spatial learning style and used sketches, colors, and detailed drawings in his studies of multivariable calculus, linear algebra, differential equations, and even C programming -- <em>succeeding at these subjects at last</em> while studying during the summer months at Harper College in Palatine, Illinois.
+Things got rough once he got there, however. He was kicked out of Purdue twice for academic deficiency in a three year span, primarily due to deficiencies in mathematics and computer programming courses. Eventually, he found a highly visual/spatial learning style and used sketches, colors, and detailed drawings in his studies of multivariable calculus, linear algebra, differential equations, and even C programming -- *succeeding at these subjects at last* while studying during the summer months at Harper College in Palatine, Illinois.
 
 His confidence in mathematics restored, he completed an Associate's Degree of Applied Science in Chemical Technology at Ivy Tech Community College of Lafayette, Indiana. Upon acceptance for reentry to Purdue University, J. spent the next two years studying inorganic, physical, and computational chemistries. He self-studied much of the advanced mathematics required for quantum mechanics and became enamored with quantum computational chemistry.
 
@@ -107,7 +107,7 @@ success in conversations include: French, German, Spanish, Portuguese, and
 Mandarin. He also has a very basic grasp on Korean, Hungarian, Swedish, Welsh,
 and Luxembourgish (yes, it's a real language!).
 
-Some would argue (particularly his darling wife) that he has <em>too many</em>
+Some would argue (particularly his darling wife) that he has *too many*
 hobbies...
 
 He currently lives in the Eastlake neighborhood of Seattle in a delightful
