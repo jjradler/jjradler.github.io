@@ -16,5 +16,19 @@ description: >
 menu: true
 order: 3
 ---
-The list of J.'s Research Interests and Current Fascination!
+## Electronic Dynamics and Charge-Transfer (CT) Processes
+
+## Mixed Quantum-Classical Dynamics (MQCD)
+
+## Nonadiabatic Electronic Couplings
+
+## Organometallic Complexes Featuring Two Metal Centers
+
+## Transition State Dynamics
+
+## Reduced Representations of Spin and Angular Momentum Coupling
+
+## Charge Migration in Biomacromolecules
+
+## Gas-Phase Peptide Chemistry
 
