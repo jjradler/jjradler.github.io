@@ -49,16 +49,22 @@ _J. Phys. Chem. A._, **2017** 121 (9), pp. 1932-1939.
 
 ---
 ## Whitepapers
-_A fun list with links of various whitepapers on technical subjects. My own special blend
-assembled for your science-ing pleasure._
+A fun list with links of various whitepapers on technical subjects. My own special blend
+assembled for your science-ing pleasure.
 
 ---
 ## Tutorials
-_Some things I've found out the hard way, digested so you don't have to wrestle with them!_
+Some things I've found out the hard way, digested so you don't have to wrestle with them!
 
 ---
 ## Upcoming Writing Project Ideas
-_Some fun things I work on in my free time..._
+Some fun things I work on in my free time...
+
+1. _A Visual Guide to Quantum Dynamics and Coherences in Chemistry_ (in the research phase)
+
+2. _Approaches For Visualizing Quantum Strangeness_ (draft forthcoming on GitHub)
+
+3. _What To Tell People When They Ask What You Do:  A Guide For Theoretical Scientists_ (in preparation)
 
 [firstauthor-doi]: https://pubs.acs.org/doi/10.1021/acs.jpca.8b01352 "10.1021/acs.jpca.8b01352"
 [thirdauthor-doi]: https://pubs.acs.org/doi/10.1021/acs.jpca.6b12099 "10.1021/acs.jpca.6b12099"

@@ -15,7 +15,9 @@ description: >
 # Setting `menu` will generate an entry in the sidebar for this tag.
 menu: true
 order: 3
+
 ---
+
 ## Electronic Dynamics and Charge-Transfer (CT) Processes
 
 ## Mixed Quantum-Classical Dynamics (MQCD)
