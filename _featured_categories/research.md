@@ -16,7 +16,14 @@ description: >
 menu: true
 order: 3
 ---
+I have a number of current research projects going on. The following is a (somewhat
+abbreviated) list of what I am currently pursuing for research projects. Some of
+my previous work can be seen on my `Writings` page. To provide some context, the
+most recently undertaken projects are towards the bottom of the page.
+
+---
 ### Applications and Models  of Quantum Dynamics and Mixed Quantum-Classical Dynamics
+
 #### Excited-State Coherences
 
 #### Electronic Dynamics and Charge-Transfer (CT) Processes
@@ -32,10 +39,12 @@ order: 3
 
 ---
 ### Charge Migration in Biomacromolecules
+
 #### DNA Radicals
 
 ---
 ### Gas-Phase Peptide and Nucleobase Photochemistry
+
 #### Ultraviolet Photodissociation (UVPD) Action Spectra
 
 #### Mass Spectrometry
