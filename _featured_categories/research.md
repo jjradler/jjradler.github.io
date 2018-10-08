@@ -11,26 +11,33 @@ slug: research
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
   ![image notebook cover here](/assets/img/header-img/notebookcover.jpg)
-  Brief summaries of my various research interests.
+  Brief summaries of my various research interests
 # Setting `menu` will generate an entry in the sidebar for this tag.
 menu: true
 order: 3
+---
+### Applications and Models  of Quantum Dynamics and Mixed Quantum-Classical Dynamics
+#### Excited-State Coherences
+
+#### Electronic Dynamics and Charge-Transfer (CT) Processes
+
+#### Mixed Quantum-Classical Dynamics (MQCD)
+
+#### Nonadiabatic Electronic Couplings
+
+#### Reduced Representations of Spin and Angular Momentum Coupling
 
 ---
+### Organometallic Complexes Featuring Two Metal Centers
 
-## Electronic Dynamics and Charge-Transfer (CT) Processes
+---
+### Charge Migration in Biomacromolecules
+#### DNA Radicals
 
-## Mixed Quantum-Classical Dynamics (MQCD)
+---
+### Gas-Phase Peptide and Nucleobase Photochemistry
+#### Ultraviolet Photodissociation (UVPD) Action Spectra
 
-## Nonadiabatic Electronic Couplings
+#### Mass Spectrometry
 
-## Organometallic Complexes Featuring Two Metal Centers
-
-## Transition State Dynamics
-
-## Reduced Representations of Spin and Angular Momentum Coupling
-
-## Charge Migration in Biomacromolecules
-
-## Gas-Phase Peptide Chemistry
 
