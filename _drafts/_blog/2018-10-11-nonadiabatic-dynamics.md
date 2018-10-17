@@ -36,13 +36,7 @@ The terms **adiabatic** and **nonadiabatic** (not to be confused with **diabatic
 but more on that later...) in quantum mechanics and dynamics do indeed have
 straighforward and rather useful analogies to classical thermodynamics.
 
-If you have an **adiabatic** system with two parts connected by an insulating barrier, like hot coffee in a thermos that is surrounded by cold
-air for example, this means no energy (*i.e.,* heat!) may escape the coffee through
-the walls. The insulation of the walls prevents the transfer of energy from the
-molecules of coffee to the air outside (assume it's a Perfect Thermos,
-patent pending). If we consider my newly patented Perfect Thermos to have
-vacuum in the walls, _of course_ the hot (fast moving) particles in the coffee
-cannot transfer their _momentum_ to the air molecules outside.
+If you have an **adiabatic** system with two parts connected by an insulating barrier, like hot coffee in a thermos that is surrounded by cold air for example, this means no energy (*i.e.,* heat!) may escape the coffee through the walls. The insulation of the walls prevents the transfer of energy from the molecules of coffee to the air outside (assume it's a Perfect Thermos, patent pending). If we consider my newly patented Perfect Thermos to have vacuum in the walls, _of course_ the hot (fast moving) particles in the coffee cannot transfer their _momentum_ to the air molecules outside.
 
 Thus, our coffee stays hot, fresh, and delicious for hours and hours and hours!
 
@@ -78,8 +72,11 @@ The complexity of the dynamics comes in at this point because the excitation its
 
 Still, even if we assume the electron only inhabits one state, there are still a number of other nearby electronic states that the energy can “leak” to.  The main issue here is that — in order to reduce the complexity of our calculations of the energy of each of these states in the first place — we had to assume that they are completely uncoupled (or _insulated_) from one another by a _transition energy_ ($\Delta E$)  like the vacuum wall separating the _higher energy coffee_ from the _lower energy air_ surrounding it in my Perfect Thermos described above! 
 
+So why is this actually interesting from an electronic dynamics standpoint? 
 
+TODO:  This is interesting because _all_ of the electrons are coupled directly to one another somehow, and even worse, they are all also coupled to all the other nuclei!  And that’s just one molecule in a vacuum… if you have it in solution, that whole mess couples to absolutely everything else as well. 
 
+I’m sure you’re seeing now why this is a challenging problem to tackle. 
 
 ### Right, But How Do You Use It?
 
