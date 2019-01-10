@@ -27,8 +27,8 @@ order: 2
 
 ## Scientific Interests
 
-J. is a quantum chemistry research assistant at the University of Washington in
-Seattle, Washington. His research foci include, but are by no means limited to:
+J. is currently a Teaching Associate for General Chemistry at the University of Washington in sunny Seattle, WA, having also studied there recently as a graduate research assistant. His research interests include, but are by no means limited to:
+
 <ul style="list-style-type: disc">
  	<li>Simulations of quantum dynamical processes</li>
  	<li>Electronic structure theory</li>
