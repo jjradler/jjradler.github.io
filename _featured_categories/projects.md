@@ -45,6 +45,8 @@ global Vim or Neovim configuration files. The user may also be able to select
 color-deficiency-friendly color schemes and the package will adapt the
 highlighting appropriately.
 
+If it works, the end objective is to assemble packages for various text applications and web browsers instead of just Vim or Neovim plugins. However, I need to work out the specifics of how to arrange the color pallette at the moment. 
+
 <!---[Encalculable on GitHub!](https://github.com/jjradler/encalculable) [Encalculable on GitHub!]\-->
 
 ---
@@ -133,14 +135,14 @@ files I found on GitHub.
 ---
 ### Parsers and Automation of Various Types for Gaussian Logfiles
 There comes a time in everyone's life when they are just too cool to deal with
-slogging through incredibly long, verbose logfiles looking for a specific value.
+slogging through incredibly long, verbose logfiles looking for a specific keyword or value.
 
 And by that, I mean they're too tired and under the gun to do the job well.
 
 I was struggling with reading thousands of lines of logfiles from Gaussian in my
 role as a computational chemist. I was making so many mistakes that it was really
 irritating my research advisor (thanks, Boss!), so I wrote some parsers to do that
-particular job for me.
+particular job for me. The collection is written in Bash and Python, but I think in the near future I’d like to assemble it all into a Python package that could be deployed generally for various types of computational software logfiles. I just happen to be more intimately familiar with the Gaussian computational chemistry software logfiles than any others at the moment. 
 
 Other parts of this kit include:
 * Automation for writing batches of Gaussian input files
@@ -155,6 +157,7 @@ Other parts of this kit include:
 
 ---
 ### <!--I've also got this crazy notion...-->
+
 <!--To start refactoring some open-source numerical packages that Julia needs in its-->
 <!--standard library. I don't know which ones to start with --- any suggestions?-->
 

@@ -52,6 +52,8 @@ _J. Phys. Chem. A._, **2017** 121 (9), pp. 1932-1939.
 A fun list with links of various whitepapers on technical subjects. My own special blend
 assembled for your science-ing pleasure.
 
+1.  [Introduction to _Ab Initio_ Mean-Field Electronic Dynamics][intro-to-mqd]
+
 ---
 ## Tutorials
 Some things I've found out the hard way, digested so you don't have to wrestle with them!
@@ -68,3 +70,5 @@ Some fun things I work on in my free time...
 
 [firstauthor-doi]: https://pubs.acs.org/doi/10.1021/acs.jpca.8b01352 "10.1021/acs.jpca.8b01352"
 [thirdauthor-doi]: https://pubs.acs.org/doi/10.1021/acs.jpca.6b12099 "10.1021/acs.jpca.6b12099"
+
+[intro-to-mqd]: https://github.com/jjradler/writings/blob/master/jjr_mixed_quantum_classical.pdf "Introduction to *Ab Initio* Mean-Field Electronic Dynamics"
