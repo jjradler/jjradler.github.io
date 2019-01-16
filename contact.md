@@ -10,7 +10,7 @@ order: 6
 Please feel free to e-mail me if you would like to discuss any of the subjects
 on my site in detail. I can be reached most easily by
 <a href="mailto:jjradler@uw.edu"> my UW institutional e-mail</a>. I can also be
-reached at my <a href="mailto:jjradler@gmail.com"> personal-ish e-mail account
+reached at my <a href="mailto:joseph.james.radler@gmail.com"> personal-ish e-mail account
 </a> as well.
 
 I also have profiles on a couple of social media platforms, so I am happy to
@@ -23,9 +23,6 @@ connect with you on there as well!
 /?hl=en">husky_alchemist</a>
 
 <strong>GitHub:</strong>         <a href="https://github.com/jjradler">jjradler</a>
-
-<strong>Wordpress:</strong>      <a href="http://blogs.uw.edu/jjradler">Change
-Is The Only Constant (Classic Version)</a>
 
 ---
 
