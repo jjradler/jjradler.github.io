@@ -19,7 +19,7 @@ order: 4
 ---
 At any given time I have several ideas, some quite ridiculous, but others end up
 making it into reality. Assembled here are some original ideas and many more
-functional tools modified from the very clever work of others. I will be adding links to the repos as they become useful and I feel like bringing them out in public! 
+functional tools modified from the very clever work of others. I will be adding links to the repos as they become useful and I feel like bringing them out in public!
 
 ---
 ### Encalculable
@@ -34,8 +34,7 @@ and blue, magenta and green, etc. _see figure_)
 l) or CC BY-SA 3.0
  (https://creativecommons.org/licenses/by-sa/3.0)], from Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File:RBG_color_wheel.svg"><img
-width="512" alt="RBG color wheel" src="https://upload.wikimedia.org/wikipedia/
-commons/thumb/a/ab/RBG_color_wheel.svg/512px-RBG_color_wheel.svg.png" style=
+width="512" alt="RBG color wheel" src="https://upload.wikimedia.org/wikipedia/commons/a/ab/RBG_color_wheel.svg" style=
 "float:right;width:150px;height:125px"></a>
 
 The user will be able to install the package, choose a good color scheme for
@@ -45,7 +44,7 @@ global Vim or Neovim configuration files. The user may also be able to select
 color-deficiency-friendly color schemes and the package will adapt the
 highlighting appropriately.
 
-If it works, the end objective is to assemble packages for various text applications and web browsers instead of just Vim or Neovim plugins. However, I need to work out the specifics of how to arrange the color pallette at the moment. 
+If it works, the end objective is to assemble packages for various text applications and web browsers instead of just Vim or Neovim plugins. However, I need to work out the specifics of how to arrange the color pallette at the moment.
 
 <!---[Encalculable on GitHub!](https://github.com/jjradler/encalculable) [Encalculable on GitHub!]\-->
 
@@ -67,7 +66,7 @@ Eventually I'm going to refactor this into something a little faster, like Julia
 or C++, but for the time being, this has been quite useful for me as a
 computational chemist studying dynamical molecular processes.
 
-<!---[Time-Frequency Analysis (TFA) Visualization Toolkit](https://github.com/jjradler/tfa_tools --> 
+<!---[Time-Frequency Analysis (TFA) Visualization Toolkit](https://github.com/jjradler/tfa_tools -->
 
 ---
 ### Dotfiles
@@ -142,7 +141,7 @@ And by that, I mean they're too tired and under the gun to do the job well.
 I was struggling with reading thousands of lines of logfiles from Gaussian in my
 role as a computational chemist. I was making so many mistakes that it was really
 irritating my research advisor (thanks, Boss!), so I wrote some parsers to do that
-particular job for me. The collection is written in Bash and Python, but I think in the near future I’d like to assemble it all into a Python package that could be deployed generally for various types of computational software logfiles. I just happen to be more intimately familiar with the Gaussian computational chemistry software logfiles than any others at the moment. 
+particular job for me. The collection is written in Bash and Python, but I think in the near future I’d like to assemble it all into a Python package that could be deployed generally for various types of computational software logfiles. I just happen to be more intimately familiar with the Gaussian computational chemistry software logfiles than any others at the moment.
 
 Other parts of this kit include:
 * Automation for writing batches of Gaussian input files
