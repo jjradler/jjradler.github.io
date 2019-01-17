@@ -49,8 +49,8 @@ author:
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             >
-  © 2018. All rights reserved.
-  Joseph J. Radler, M. S.     Computational Quantum Chemist
+  © 2019. All rights reserved.
+  Joseph J. Radler, M. S.     Teaching Associate and Computational Quantum Chemist
 
 # Add links to the footer.
 # Typically you'll want to link to your impress, cookies or privacy policy, etc.
@@ -110,6 +110,10 @@ defaults:
     values:
       seo:
         type:          WebPage
+  - scope:
+      type:            posts
+    values:
+      comments:        true
 
 
 # 3rd Party Integrations
@@ -121,7 +125,7 @@ defaults:
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-# disqus:                <disqus_shortname>
+disqus:                jjradler-github-io
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
