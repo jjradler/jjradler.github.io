@@ -20,6 +20,30 @@ order: 4
 At any given time I have several ideas, some quite ridiculous, but others end up
 making it into reality. Assembled here are some original ideas and many more
 functional tools modified from the very clever work of others. I will be adding links to the repos as they become useful and I feel like bringing them out in public!
+---
+### D3.js Visual Storytelling
+I am not working on anything specific at the moment, but I will be playing around
+with Javascript and D3.js (among other packages) to develop fun and informative
+methods for teaching various concepts in quantum mechanics through visualization.
+
+At the end of the day, quantum mechanics is best 'understood' through various
+flavors of projective geometry and different algebraic representations.
+
+The trouble is -- visualizing high-dimensional _fixed_ objects is difficult
+enough -- let alone trying to imagine the dynamical ebbs and flows of energy
+through excited molecular states. Perhaps using D3 and various other visual-
+storytelling methods can help _me_, as well as other visitors to my site,
+first imagine and visualize these complex processes underpinning literally
+_everything_ we see!
+
+<!-- See my Blog Post for more details! -->
+
+---
+### Task Management Algorithms
+I have a heck of a time prioritizing things sometimes when things get busy,
+so I have come up with some neat ideas for custom algorithms for managing my
+tasks after "brain-dumping" them, and allowing me a little more freedom from
+deciding _what to do first!_
 
 ---
 ### Encalculable
