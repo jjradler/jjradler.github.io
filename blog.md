@@ -16,5 +16,6 @@ description: >
 # Setting `menu` will generate an entry in the sidebar for this tag.
 menu: true
 order: 1
+# other options
 ---
 Let's discuss!
