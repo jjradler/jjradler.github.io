@@ -1,23 +1,60 @@
 ---
 layout: post
-title: I Used to Be "Bad at Math
+title: SLURM:  It’s Highly Addictive!
 description: >
-  ... but I eventually got over it and learned to love Mathematics!
+Some helpful information I’ve picked in my travels and research projects for using the SLURM task-scheduler often deployed on high-performance computing clusters. 
 ---
 
-## The Setup
+## What is a Task Scheduler?
+
+### Definition and Terms
+
+### Frequently Used Schedulers in Academia and Industry
+
+### Schedulers I Have Known and (Not) Loved
+
+#### PBS
+
+#### SLURM
+
+---
+
+## OK, so SLURM….?
+
+---
+
+## The Anatomy of a SLURM Batch Job Script
+
+### Overview & Points of Interest
+
+---
+
+## Cool Things You Can Do
+
+### Defining Dependencies
+
+Schematic of dependent jobs (simple) 
 
 
-## You're Just Not Applying Yourself
 
+### Concurrent (Array) Jobs
 
-## Failures upon Failures
+Schematic of array jobs
 
+### Building Pipelines and Cascades of Jobs
 
-## Epiphanies
+The `aftercorr` dependency keyword.
 
+Schematic image of a pipeline
 
-## The Moral?
+### One-Touch Set-and-Forget HPC Jobs
+
+---
+
+## Some Remarks
+
+## Other Sources of Information
+
 
 
 -J.J.R.

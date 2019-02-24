@@ -22,8 +22,15 @@ order: 8
 ## Which Courses Does This Cover?
 This guide consists of J's notes and observations from teaching the following
 courses at the University of Washington, some of them I have taught several times:
+* CHEM 110 --- Introduction to Chemistry course covering everything from
+significant digits up through reaction classes and stoichiometry. Some of the
+most insightful questions (and the inspiration for this blog post!) came from
+the delightful students I had in this course.
 * CHEM 142 --- General Chemistry course covering the basics of atomic and
-electronic structure, stoichiometry,
+electronic structure, states of matter, stoichiometry, kinetic theory, and
+reaction classes.
+* CHEM 152 --- General Chemistry course covering introductions to equilibrium,
+heat, thermochemistry, and electrochemistry. This is my favorite course to teach.
 
 ## The Objectives of This Guide
 Peppered throughout this guide are links to handy tools and tips for not only
@@ -51,3 +58,15 @@ level (and beyond!) make **all the difference** when it comes to your grades.
 
 More importantly, though, *your methods will determine if you actually absorbed
 and applied the courses you paid top-dollar for!*
+
+## The Guide
+### Introduction
+
+### The Significance of Significant Digits
+
+### Wny Nomenclature is Important
+
+### The Meaning of Reaction Equations
+
+### Solutions and Their Properties (And Why We Care)
+
