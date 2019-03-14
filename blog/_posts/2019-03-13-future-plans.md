@@ -17,7 +17,7 @@ I can say this for certain at least in the realm of the physical sciences. With 
 
 Having said that, I would strongly assert that my past four years of research and learning at the University of Washington have been highly beneficial to my development as a thinker, creator, and as a person — as one would hope, right?
 
-I learned how to dive into the depths of topics barely covered by any textbook and within which Google held no answers for me. I synthesized and tested new ideas and approaches for solving old problems. [Some of these projects even worked and I earned the right to call myself a published author on the subject!](https://jjradler.github.io/writings/#in-print) (also if you’re interested, the two articles currently  in print can be found [here](https://pubs.acs.org/doi/10.1021/acs.jpca.8b01352) and [here](https://pubs.acs.org/doi/10.1021/acs.jpca.6b12099)).
+I learned how to dive into the depths of topics barely covered by any textbook and within which Google held no answers for me. I synthesized and tested new ideas and approaches for solving old problems. [Some of these projects even worked and I earned the right to call myself a published author on the subject!](https://jjradler.github.io/writings/#in-print){:target="_blank"} (also if you’re interested, the two articles currently  in print can be found [here](https://pubs.acs.org/doi/10.1021/acs.jpca.8b01352){:target="_blank"} and [here](https://pubs.acs.org/doi/10.1021/acs.jpca.6b12099){:target="_blank"}).
 
 I gained enormous confidence and skills in computer programming — a field I had previously felt very ill-at-ease working within (but more on that in another post.)
 
