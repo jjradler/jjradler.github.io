@@ -25,7 +25,8 @@ author1:
       1x:            /assets/img/jjradler_circle.jpg
       2x:            /assets/img/jjradler_circle.jpg
 
-  # Social media icons in sidebar.
+# Social media icons in sidebar.
+
   # Comment/uncommet to show/hide. Rearrange to change the order in which they appear.
   social:
     # twitter:         jekyllrb
