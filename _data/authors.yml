@@ -10,13 +10,16 @@ author1:
 # Markdown enabled, can use multiple paragraphs (enabled by `|`)
 
   about:
-    J. Radler is currently a Teaching Associate for General Chemistry at the University of
-    Washington in sunny Seattle, Washington, USA. His professional interests
-    include teaching, disability tool development,  quantum dynamics, numerical
-    simulation, mathematical modeling, and science communication. What little
-    free time he has is devoted to hacking machines to do his bidding,
-    drawing and painting, playing and listening to guitar music, books of all
-    kinds, and spending time with his wife and fuzzball cats.
+    J. Radler is a freelance software developer, a fledgeling data scientist, and
+    an explorer of the vast universe of data and knowledge we are immersed in.
+    His professional interests include artificial intelligence, data visualization,
+    numerical simulation, mathematical modeling, quantum computation, and both
+    technical and scientific communications. What little free time he has is
+    devoted to studying geometric algebra, building efficiency and accessibility
+    tools for programmers and scientists, hacking machines of all kinds to do
+    his bidding. His less technical recreational pursuits include drawing and
+    painting the Seattle urban scenery, playing and listening to music, books of
+    all kinds, coffee extraction methods, and spending time with his wife and fuzzball cats.
 
   # This photo will be used in the about section.
   picture:
@@ -29,10 +32,10 @@ author1:
 
   # Comment/uncommet to show/hide. Rearrange to change the order in which they appear.
   social:
-    # twitter:         jekyllrb
+    # twitter:        <twitter handle>
     github:          jjradler
     # download:        <url>
-    email:           jjradler@gmail.com
+    email:           joseph.james.radler@gmail.com
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
@@ -40,7 +43,7 @@ author1:
     # youtube:         <string_string_string>
     # vimeo:           <username>
     # vine:            <username>
-    spotify:         1265151748?si=dffVYclrTRCBbxeAic0Osw
+    spotify:         https://open.spotify.com/user/1265151748?si=6YsOl-yvT02hqzfrHxsxqA
     # soundcloud:      <username>
     # lastfm:          <username>
     instagram:       husky_alchemist
@@ -61,7 +64,7 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    linkedin:        joseph-j-radler-5a543128
+    linkedin:        jjradler
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
