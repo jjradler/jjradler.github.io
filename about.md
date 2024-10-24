@@ -25,20 +25,40 @@ order: 2
 
 ---
 
-## Scientific Interests
+## Current Professional Interests
 
-J. is currently a Teaching Associate for General Chemistry at the University of Washington in sunny Seattle, WA, having also studied there recently as a graduate research assistant. His research interests include, but are by no means limited to:
+I currently work as an independent electronics design consultant with roles encompassing several different areas of technical development including — but not limited to:
 
-<ul style="list-style-type: disc">
- 	<li>Simulations of quantum dynamical processes</li>
- 	<li>Electronic structure theory</li>
- 	<li>Relativistic electronic structure methods</li>
- 	<li>Mixed quantum-classical dynamics methods</li>
- 	<li>Charge-Transfer phenomena in molecular systems</li>
- 	<li>Adiabatic-to-Diabatic transformations</li>
- 	<li>Time-resolved spectroscopies</li>
- 	<li>Graphical representations of quantum chemical phenomena</li>
-</ul>
+* Mixed analog-digital hardware design.
+* Analog signal conditioning circuitry for sensors and signal generators.
+* Precision analog sensor frontend design.
+* Industrial control systems software.
+* Embedded digital control systems and firmware for industrial devices.
+* Digitally controlled routing and manipulation of analog signals. 
+* Control panel design and human interaction systems.
+* Test jigs and automations for hardware design and manufacture.
+* Printed circuit board (PCB) layouts. 
+* High output power analog circuits (audio power amplifiers, ultrasonic drivers and the like.)
+
+In previous professional roles after graduate school, he also worked extensively with: 
+
+* Time-Frequency (Fourier) analysis.
+* Digital Signal Processing for sensor conditioning and pattern-matching.
+* Circuit phase-response analysis.
+* Novel methods for multivariate data visualization.
+* Statistics for signal integrity validation. 
+* Isolated analog sensor frontend designs. 
+* Data management schemas (*e.g.*, SQL, HDF5).
+* Automated data cleaning and management algorithms.
+* Anomaly detection algorithms. 
+
+## Additional Professional Interests & Aspirations
+
+* Learning `Julia`, `Clojure` (just because it looks compelling), and working on interfaces with quantum computing and cloud systems. 
+* Quantum computing and its applications toward challenging computational chemistry problems. 
+* The various representations of quantum systems with an eye for how these might be implemented using tools like `Julia`, quantum computers, and geometric algebra. 
+* Always picking up more useful software carpentry skills like shell scripting and keeping my data pipelining skills sharp! 
+
 ---
 
 ## A (Very Abbreviated) Biography
@@ -55,13 +75,11 @@ His confidence in mathematics restored, he completed an Associate's Degree of Ap
 
 Upon graduating with his Bachelor's of Science, J. worked as a laboratory technician and manager at the <a href="http://www.physics.purdue.edu/primelab/">Purdue Rare Isotope Measurement Laboratory (PRIME Lab)</a> for three years -- dissolving rocks, testing water, optimizing processing techniques, and fixing laboratory equipment. During this time, he pursued non-degree courses in advanced inorganic chemistry, computational science, and physics, subsequently applying to <em>graduate school after graduate school</em>. Finally, upon striking up a delightful correspondence with Prof. Xiaosong Li at the University of Washington, J. applied and was accepted to pursue a PhD. in Theoretical and Computational Chemistry with <a href="http://depts.washington.edu/ligroup/"> Prof. Li's research group</a> in the Department of Chemistry.
 
-Once there in his role as a Research Assistant, he began sharpening his skills with high-performance computing, scripting, job automation, data parsing, time-frequency analyses, data visualization, scientific visualization, quantum chemistry, and even more applied mathematics.  As a member of Prof. Li's Group he completed his Master's of Science, authored a publication, co-authored another, and presented four original research posters at various conferences and symposia. He also met a number of very good, dear friends along the way!
+Once there in his role as a Research Assistant, he began sharpening his skills with high-performance computing, scripting, job automation, data parsing, time-frequency analyses, data visualization, scientific visualization, quantum chemistry, and even more applied mathematics.  As a member of Prof. Li's Group he completed his Master's of Science, authored a publication, co-authored two others, extended semi-empirical electronic structure methods for studying ultrafast light-matter interactions, and presented four original research posters at various conferences and symposia. He also met a number of very good, dear friends along the way!
 
-First as a Teaching Assistant, then later as a full-time Teaching Associate at the University of Washington, J. has also had the privilege of teaching and tutoring hundreds of General Chemistry students concepts ranging from quantum mechanics and chemical thermodynamics through various learning and visualization techniques as well as (the ever important) laboratory safety culture.
+First as a Teaching Assistant, then later as a full-time Teaching Associate at the University of Washington, J. also had the privilege of teaching and tutoring hundreds of General Chemistry students concepts ranging from quantum mechanics and chemical thermodynamics through various learning and visualization techniques as well as (the ever important) laboratory safety culture.
 
-At the moment, he is intently studying various programming languages, development frameworks, and technologies for building the software tools he has been dreaming of. The eventual goal is to pursue work in the data science or software development industries. 
-
-Stay tuned on the Blog for more adventures in computational and theoretical chemistry!
+At the moment, he has been working in the electronics hardware space since 2019 and is intently studying various programming languages, embedded digital technologies, electronic hardware design, and power electronics so he can build the devices and tools he has been dreaming up.
 
 <hr />
 
@@ -71,53 +89,38 @@ more accessible for everyone and devotes a great deal of thought to various repr
 
 <ul style="list-style-type: disc">
  	<li>Disability resources and tools for dyslexic and dyscalculic people pursuing and working in STEM research roles</li>
- 	<li>Fun templates in \LaTeX</li>
-    <li>Various programming languages</li>
- 	<li>Mathematical pedagogy</li>
- 	<li>Topology</li>
+  <li>Quantum Dynamics simulation</li>
+  <li>Interpretations of quantum mechanics</li>
+  <li>Topology</li>
  	<li>Abstract Algebras</li>
  	<li>Geometric Algebras</li>
-    <li>Graph Theory</li>
+  <li>Graph Theory</li>
  	<li>Braid and Knot Theories</li>
  	<li>Quantum computing</li>
  	<li>Novel visualization techniques for quantum dynamical processes</li>
-    <li>and various combinations of these subjects!</li>
+ 	<li>Fun templates in \LaTeX</li>
+  <li>Various programming languages</li>
+ 	<li>Mathematical pedagogy</li>
+  <li>and various combinations of these subjects!</li>
 </ul>
+
 
 
 <hr />
 
 <h1>Other General Interests</h1>
-J. has a number of other interests outside of scientific research. He enjoys
-acrylic, oil, and watercolor painting, drawing, and various other two-dimensional
-forms of visual art. Lately he has been taking an interest in “urban sketching” with fountain pens and ink washes. He plays the guitar, the piano, and sings (when no one else
-can hear him, though...)
+J. has a number of other interests outside of scientific research and technical development. He enjoys acrylic, oil, and watercolor painting, drawing, and various other two-dimensional
+forms of visual art. Lately he has been taking an interest in “urban sketching” with fountain pens and ink washes. He has a budding home recording studio where he plays guitar, synthesizers, piano (badly), and sings. 
 
-Being a bit of a coffee-snob -- and living in Seattle -- he has been recently
-experimenting with various coffee extraction techniques. He also very much enjoys
-studying and experiencing the chemistries of various wines, aromatic compounds
-in beers, and distillation of liquors. The chemistry of cooking and baking is
-another recent interest (are we noticing a theme?)
+A major interest is designing and building audio effects circuits like guitar pedals and synthesizers. This hobby eventually morphed into professional roles, in fact! 
 
 J. also really enjoys wrenching on machines, and has a passion for German
-automobiles. However, having been a graduate student and not being made of
-money -- that means Volkswagens! Although he enjoys hacking and modding all
-sorts of machines (computers, cars, motorcycles, household appliances...)
+automobiles — although he enjoys hacking and modding all
+sorts of machines (computers, cars, motorcycles, household appliances...) 
 
-Finally, as alluded to previously, J. speaks several languages with varying
-degrees of fluency and literacy. He speaks, reads, and writes Japanese
-more-or-less fluently, and has had experience teaching complex subjects like
-advanced electronic structure theory completely in Japanese.
+He also speaks German, Spanish, and Russian haltingly (but can read Cyrillic just fine) and is studying French and Luxembourgish more intensely. Other languages he has been studying recently and with which he has had some success in conversations include Portuguese and
+Mandarin. He also has a very basic grasp on Korean and Hungarian.  
 
-He also speaks Russian haltingly, but can read Cyrillic just fine, thank you!
-Other languages he has been studying recently and with which he has had some
-success in conversations include: French, German, Spanish, Portuguese, and
-Mandarin. He also has a very basic grasp on Korean, Hungarian, Swedish, Welsh,
-and Luxembourgish (yes, it's a real language!).
 
-He currently lives in the Eastlake neighborhood of Seattle in a delightful
-4-story walkup with his wife and fuzzball cats. He is currently trying to keep
-one of the little furry bastards from inputting the self-destruct code on his
-MacBook at this very instant...
 
-### To Be Continued...
+He currently lives by the Puget Sound in a cozy little home along a busy street surrounded by fragrant rhododendron, cypress trees, and salt water. This cozy house is shared with his brilliant wife, two fuzzball cats, and a few rooms full of books and instruments.
