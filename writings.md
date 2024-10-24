@@ -17,23 +17,24 @@ description: >
 menu: true
 order: 4
 ---
-A handy list of my publications, whitepapers, and some tutorials I'm writing. All
-for the low, low price of on-the-house!
+A handy list of my publications, whitepapers, and some tutorials I'm writing. All for the low, low price of on-the-house!
+
 ## Articles
-### In Preparation
-1. **Radler, J. J.**; Valentine, A.; Lingerfelt, D. B.; Castellano, F. N.; Chen, L. X.; Li, X;
-"Cascading Into Coherence -- Uncovering Energy Transfer Channels Through a Fast Intersystem Crossing in a Bimetallic Pt(II) Complex"; _(In Preparation)_
 
 ### In Print
-2. **Radler, J. J.**; Lingerfelt, D. B.; Castellano, F. N.; Chen, L. X.; Li, X.;
-"Role of Vibrational Dynamics on Excited-State Electronic Coherence in a Binuclear Platinum Complex **(Featured Cover Article)**"
-_J. Phys. Chem. A_, **2018**, 122 (23) pp. 5071-5077.
-**DOI:**  [10.1021/acs.jpca.8b01352][firstauthor-doi]
 
-3. Lingerfelt, D. B.; Lestrange, P. J.; **Radler, J. J.**; Brown-Xu, S. E.; Kim, P.; Castellano, F. N.; Chen, L. X.; Li, X.;
-"Can Excited State Electronic Coherence Be Tuned via Molecular Structural Modification? A First-Principles Quantum Electronic Dynamics Study of Pyrazolate-Bridged Pt(II) Dimers."
-_J. Phys. Chem. A._, **2017** 121 (9), pp. 1932-1939.
-**DOI:**  [10.1021/acs.jpca.6b12099][thirdauthor-doi]
+2. Valentine, A. J. S.; **Radler, J. J.**; Mills, A.; Kim, P.; Castellano, F. N.; Chen, L. X.; Li, X;
+  "Resolving the ultrafast intersystem crossing in a bimetallic platinum complex" _J. Chem. Phys._, **2019**, 151, 114303. **DOI:** [10.1063/1.5115169][secondauthor-doi]
+
+3. **Radler, J. J.**; Lingerfelt, D. B.; Castellano, F. N.; Chen, L. X.; Li, X.;
+  ("Role of Vibrational Dynamics on Excited-State Electronic Coherence in a Binuclear Platinum Complex **(Featured Cover Article)**"
+  _J. Phys. Chem. A_, **2018**, 122 (23) pp. 5071-5077.
+  **DOI:**  [10.1021/acs.jpca.8b01352][firstauthor-doi]
+
+4. Lingerfelt, D. B.; Lestrange, P. J.; **Radler, J. J.**; Brown-Xu, S. E.; Kim, P.; Castellano, F. N.; Chen, L. X.; Li, X.;
+  "Can Excited State Electronic Coherence Be Tuned via Molecular Structural Modification? A First-Principles Quantum Electronic Dynamics Study of Pyrazolate-Bridged Pt(II) Dimers."
+  _J. Phys. Chem. A._, **2017** 121 (9), pp. 1932-1939.
+  **DOI:**  [10.1021/acs.jpca.6b12099][thirdauthor-doi]
 
 ---
 ## Presentations
@@ -69,6 +70,8 @@ Some fun things I work on in my free time...
 3. _What To Tell People When They Ask What You Do:  A Guide For Theoretical Scientists_ (in preparation)
 
 [firstauthor-doi]: https://pubs.acs.org/doi/10.1021/acs.jpca.8b01352 "10.1021/acs.jpca.8b01352"
-[thirdauthor-doi]: https://pubs.acs.org/doi/10.1021/acs.jpca.6b12099 "10.1021/acs.jpca.6b12099"
 
+[secondauthor-doi]: https://pubs.aip.org/aip/jcp/article/151/11/114303/198874/Resolving-the-ultrafast-intersystem-crossing-in-a “10.1063/1.5115169”
+
+[thirdauthor-doi]: https://pubs.acs.org/doi/10.1021/acs.jpca.6b12099 "10.1021/acs.jpca.6b12099"
 [intro-to-mqd]: https://github.com/jjradler/writings/blob/master/jjr_mixed_quantum_classical.pdf "Introduction to *Ab Initio* Mean-Field Electronic Dynamics"

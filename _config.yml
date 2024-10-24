@@ -32,7 +32,9 @@ tagline:               >
   My thoughts on science, mathematics, and the computational arts.
 
 # A list of keywords for your blog.
-keywords:              [Chemistry, Software Development, Philsophy, Physics, Quantum Mechanics, Education]
+keywords:              [Chemistry, Quantum Computing, Embedded Programming,
+  Software Development, Painting, Electronics,  Philsophy, Physics,
+  Quantum Mechanics, Mathematics,  Education]
 
 # Used by jekyll-seo-tag.
 logo:                  /assets/img/jjradler_circle.jpg
@@ -41,15 +43,15 @@ logo:                  /assets/img/jjradler_circle.jpg
 author:
   # Used by `jekyll-feed`:
   name:                Joseph J. Radler
-  email:               jjradler@gmail.com
+  email:               joseph.james.radler@gmail.com
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
   picture:             /assets/img/jjradler_circle.jpg
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             >
-  © 2019. All rights reserved.
-  Joseph J. Radler, M. S.     Teaching Associate and Computational Quantum Chemist
+  © 2024. All rights reserved.
+  Joseph J. Radler, M. S.
 
 # Add links to the footer.
 # Typically you'll want to link to your impress, cookies or privacy policy, etc.
