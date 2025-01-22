@@ -97,7 +97,7 @@ Interestingly, the `methods`… uh… method, contains an event loop, at least i
 
 ![got_any_lamps](../../assets/img/got_any_lamps.jpeg)
 
-You have to press `q` to quit it. It is, hoewver, a very long list of methods. Presumably, each number as a member of `class` `Integer` has access to every one of these methods! 
+You have to press `q` to quit it. It is, however, a very long list of methods. Presumably, each number as a member of `class` `Integer` has access to every one of these methods! 
 
 Any of these methods can be called with the dot operator. 
 
@@ -608,10 +608,6 @@ Then we’ll start building out the functionality for the game. I might’ve got
 # Initially this will be written to handle five guesses before a "Game Over!"
 # J. J. Radler
 # 2025-01-21
-
-# add one to rand(9) to remove the zero-index offset since rand() includes 0.
-# the_number = rand(9) + 1
-#testprint
 
 max_guesses = 5
 guess_counter = max_guesses
