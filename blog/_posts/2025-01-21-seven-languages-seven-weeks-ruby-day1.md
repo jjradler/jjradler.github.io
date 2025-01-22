@@ -11,9 +11,11 @@ description: >
 
 First, some housekeeping. 
 
-*I’m ripping the code snippets almost exactly from the book I’m working through with some minor tweaks and experiments of my own added in. Most of this Ruby code is in fact not my own original work and belongs to the author.* 
+*I’m retyping the code snippets almost exactly from the book I’m working through with some minor tweaks, asides, and experiments of my own added in. Most of this Ruby code is in fact not my own original work and belongs to the author. When a difference in syntax occurs between the book listing and the Ruby 3.4.1 version I am currently using, I will use Ruby 3.4.1 syntax.* 
 
-Although, again I did key in and follow every one of these examples using a distribution of `irb` that I installed on my personal machine (an Apple Silicon MacBook Pro). Here’s what I’m running for my Ruby distribution at time of writing: 
+*Some of the verbiage discussing the language and the associated listings are essentially rephrasing the original source material with some of my own additional commentary added in.*
+
+I did key in and follow every one of these examples using a distribution of `irb` that I installed on my personal machine (an Apple Silicon MacBook Pro). Here’s what I’m running for my Ruby distribution at time of writing: 
 
 ``` shell
 $ ruby --version
@@ -44,6 +46,8 @@ I guess it’s time to make friends with the dot operator!
 
 
 ---
+![objects_everywhere.png](../../assets/img/objects_everywhere.png)
+
 **Day 1:  Objects. Objects, everywhere!**
 
 The number `4`.  It’s an integer. It’s also a number. It has a value. In Ruby, it’s a member of a `class`, specifically the `class` of `Integer`, like so: 
@@ -89,7 +93,11 @@ irb(main):011> 4.methods
 
 Yes! As with all individuals, the number 4 contains multitudes here! So it seems that essentially every number, variable, operator… everything is a `class`, it seems. 
 
-Interestingly, the `methods`… uh… method, contains an event loop, at least in my version of Ruby’s `irb` REPL. You have to press `q` to quit it. It is, hoewver, a very long list of methods. Presumably, each number as a member of `class` `Integer` has access to every one of these methods! 
+Interestingly, the `methods`… uh… method, contains an event loop, at least in my version of Ruby’s `irb` REPL. 
+
+![got_any_lamps](../../assets/img/got_any_lamps.jpeg)
+
+You have to press `q` to quit it. It is, hoewver, a very long list of methods. Presumably, each number as a member of `class` `Integer` has access to every one of these methods! 
 
 Any of these methods can be called with the dot operator. 
 
@@ -134,7 +142,7 @@ irb(main):029> true.class
 
 Interesting. I would have expected that the `.class` method would return the *same* type for both `true` and `false`, but they are *different classes*?  Still, the branching and return values behave as one would expect from any other programming language. Perhaps `TrueClass` and `FalseClass` are subclasses or somehow derived from an overarching `boolean` class? 
 
-*Sidebar: I skipped ahead in the book to Day 2 because I was curious. It seems that the class, superclass, and superclass superclass, (until the base class is reached, anyway) to explore the structures of classing and superclasses/subclasses. Doing this with the `TrueType` and `FalseType` objects `true` and `false` shows us that:*
+*Sidebar: I skipped ahead in the book to Day 2 because I was curious. It seems that the class, superclass, and superclass superclass — until the base class is reached, anyway —  can be used to explore the inheritance structures of objects, child classes, and parent/super classes. Doing this with the `TrueType` and `FalseType` objects `true` and `false` shows us that:*
 
 ```ruby
 irb(main):054> true.class
@@ -153,7 +161,7 @@ irb(main):061> false.class.superclass
 
 ```
 
-*Seems `TrueClass` and `FalseClass` are both distinct subclasses (or children?) of class `Object`, which is a subclass of `BasicObject` in the Ruby interpreter. It’s an interesting design decision, but I’m sure there’s a reason for it! (?)*
+*It seems that `TrueClass` and `FalseClass` are both distinct subclasses (or children?) of class `Object`, which is a subclass of `BasicObject` in the Ruby interpreter.*
 
 Now back to our regularly scheduled Day 1 content! 
 
@@ -184,7 +192,7 @@ this appears to be true
 
 Interesting again! Every structure seems to return `nil` and terminal outputs like `this appears to be true` seem to be “side-effects”? 
 
-To me, `unless` seems like a touch of “syntactic sugar” to aid in readability of the code, since it could also simply be expressed with `!` or `not`, but `unless` seems more immediately readable to a non-Ruby programmer skimming the code. 
+To me, `unless` seems like a touch of “syntactic sugar” to aid in readability of the code, since it could also simply be expressed with `!` or `not`, but `unless` seems more immediately readable to someone just skimming the code. 
 
 The book provides the example of this readability with the expression: 
 
@@ -193,7 +201,7 @@ order.calculate_tax unless order.nil?
 
 ```
 
-which, with my currently limited knowledge, seems to express the idea `use the .calculate_tax method on the order if the order is not (unless the order is) of class/value nil (it doesn't exist!)` where the `.nil?` method will return a boolean-type value indicating whether or not the value object of interest is, in face, value `nil`. 
+which, with my currently limited knowledge, seems to express the idea “use the `*.calculate_tax` method on the `order` if the `order` is not (‘unless the order is’) of `class`/value `nil` (it doesn't exist!) where the `*.nil?` method will return a boolean-type value indicating whether or not the value object of interest is, in fact, value `nil`. 
 
 Two more keywords are introduced here:  `while` and `until`. 
 
@@ -330,9 +338,13 @@ More concretely, `true or this_will_not_cause_an_error` will yield `true`, but t
 
 I find this to be a very interesting design choice, although maybe it is a consequence of the interpreter using side effects to yield values for evaluation? 
 
----
+
 
 **If It Walks Like a Duck...**
+
+![Tech-Impaired-Duck](../../assets/img/Tech-Impaired-Duck.jpg)
+
+
 
 How much protection will Ruby provide if a type error is introduced into your code? The typing model for Ruby is *strong typing*, that-is, the interpreter will *infer* the type from the statement, and collisions of incompatible types will throw `TypeError` messages in the REPL or program log, like so: 
 
@@ -427,40 +439,77 @@ Here I will provide my own answers to many of the Self-Study questions, but for 
 
 **Do:**
 
-*Print the string “Hello, world.”*
+---
+*1. Print the string “Hello, world.”*
 
 ``` ruby
 puts "Hello, world." 
 
 ```
 
-
-
-*For the string “Hello, Ruby,” find the index of the word “Ruby”.*
+---
+*2. For the string “Hello, Ruby,” find the index of the word “Ruby”.*
 
 ```ruby
+irb(main):030> x = 0
+=> 0
+# use an `until` statement with the condition that the character matches the first letter in 'Ruby'
+irb(main):031> x = x + 1 until s[x] == 'R'
+=> nil
+irb(main):032> puts "Index of word \"Ruby\" is #{x}"
+Index of word "Ruby" is 7
+=> nil
 
 ```
 
-
-
-*Print your name ten times.*
+---
+*3. Print your name ten times.*
 
 ``` ruby
+irb(main):040* while x < 10
+irb(main):041*   x = x + 1
+irb(main):042*   puts my_name
+irb(main):043> end
+J. J. Radler
+J. J. Radler
+J. J. Radler
+J. J. Radler
+J. J. Radler
+J. J. Radler
+J. J. Radler
+J. J. Radler
+J. J. Radler
+J. J. Radler
+=> nil
+irb(main):044>
 
 ```
 
-
-
-*Print the string “This is sentence number 1,” where number 1 changes from 1 to 10.*
+*4. Print the string “This is sentence number 1,” where number 1 changes from 1 to 10.*
 
 ``` ruby
+irb(main):057> x = 0
+=> 0
+irb(main):058* while x < 10
+irb(main):059*   x = x + 1
+irb(main):060*   puts "This is sentence number #{x},"
+irb(main):061> end
+This is sentence number 1,
+This is sentence number 2,
+This is sentence number 3,
+This is sentence number 4,
+This is sentence number 5,
+This is sentence number 6,
+This is sentence number 7,
+This is sentence number 8,
+This is sentence number 9,
+This is sentence number 10,
+=> nil
 
 ```
 
-
-
-*Run a Ruby program from a file.*
+---
+*5. Run a Ruby program from a file.*
 
 First, we need to create a Ruby file having the extension `*.rb` in our file system. This can be done a few ways. The `touch` command in `*NIX` and MacOS terminals like I’m using is a classic. 
 
@@ -468,8 +517,6 @@ First, we need to create a Ruby file having the extension `*.rb` in our file sys
 touch first_program.rb
 
 ```
-
-
 
 Alternatively, just opening `vim` and giving the file a name at that point is a quick and easy way to create a file on most systems, which is what I typically opt for, myself. 
 
@@ -480,24 +527,192 @@ vim first_program.rb
 
 ```
 
+*Note: This listing is an originally created solution using the Ruby API docs, and the docs at `ruby-lang.org` for `string` methods.*
+
 Add some stuff to make it do some the thing, as one does: 
 
 ```ruby
+# First program in Ruby. Takes a hard-coded list of subjects, direct objects,
+# and verbs to  mad-libs them together into a hard-coded number
+# of silly sentences. 
+# J. J. Radler
+# 2025-01-25
+#
 
+subjects = ['Some guy', 'The dog', 'My cat', 'Mista Dabolina', 'Flipper']
+direct_objects = ['a gazorninplatt', 'the ribulphlazm', 'a rutabaga', 'this ishkibibble', 'a lunch', 'the cable', 'a ball']
+verbs = ['has', 'lacks', 'eats', 'works', 'wants', 'cooks', 'gives', 'takes', 'stops']
+
+iterations = 20
+x = 0
+
+while x < iterations
+  x = x + 1
+  v = rand(verbs.length)
+  d = rand(direct_objects.length)
+  s = rand(subjects.length)
+
+  puts "#{subjects[s]} #{verbs[v]} #{direct_objects[d]}!"
+end
 ```
 
 And then execute it using `ruby` on the command-line like this: 
 
-``` shell
->> ruby first_program.rb
-
+``` 
+$ ruby first_program.rb
+My cat cooks a gazorninplatt!
+Some guy works the ribulphlazm!
+The dog stops a gazorninplatt!
+Some guy works a lunch!
+Some guy has a lunch!
+My cat eats the cable!
+The dog works a rutabaga!
+Mista Dabolina stops the cable!
+The dog cooks the cable!
+Mista Dabolina takes the cable!
+Mista Dabolina takes a ball!
+Flipper cooks a gazorninplatt!
+Flipper works this ishkibibble!
+Mista Dabolina lacks the ribulphlazm!
+The dog gives this ishkibibble!
+Some guy has a lunch!
+Flipper gives a lunch!
+The dog has a ball!
+Some guy lacks the ribulphlazm!
+Some guy gives a ball!
 
 ```
 
+It seems to work correctly! Although it doesn’t seem terribly random, there is no correction for which word was selected in the previous iteration. That could be fairly easily implemented, but this was enough fun for one problem! 
 
+---
 
-*Bonus Problem:  Write a program that picks a random number. Let a player guess the number, telling the player whether the guess is too low or too high. HINTS: use `rand(N)` and `gets`*
+*6. Bonus Problem:  Write a program that picks a random number. Let a player guess the number, telling the player whether the guess is too low or too high. HINTS: use `rand(N)` and `gets`*
 
+We’ll start by creating the program `random_game.rb` with `touch` in the shell: 
 
+``` shell
+touch random_game.rb
+
+```
+
+Then we’ll start building out the functionality for the game. I might’ve gotten a bit fancy by adding in the loop and the value checking conditionals, but I figured it couldn’t hurt in this case to be a little “extra”, right? 
+
+*Note: The following listing is another original solution to the prompt problem.*
+
+```ruby
+# Random Number Game
+# Solution to Seven Programming Languages in Seven Weeks Ruby - Day1 Self Study
+# The game generates a random number from 1 to 10, then accepts a guess from
+# the player, providing feedback to the player through the console.
+# Initially this will be written to handle five guesses before a "Game Over!"
+# J. J. Radler
+# 2025-01-21
+
+# add one to rand(9) to remove the zero-index offset since rand() includes 0.
+# the_number = rand(9) + 1
+#testprint
+
+max_guesses = 5
+guess_counter = max_guesses
+
+# the value returned by rand(10) is 0 inclusive and excluse of 10, hence
+# the addition of +1 to the value. 
+the_number = rand(10) + 1
+
+until guess_counter == 0
+  puts "What's your guess?"
+  # it's important to remember that `gets` returns a `string` object
+  guess = gets.to_i
+
+  if guess == the_number
+    puts "YOU GOT IT!"
+    break
+  else
+    guess_counter = guess_counter - 1
+    if guess > the_number
+      puts "Too High!"
+    else
+      puts "Too Low!"
+    end
+
+    puts "#{guess_counter} tries left!" unless guess_counter == 0
+    # From the documentation I found a similar loop-control statement to `continue` in Python and C.
+    next
+
+  end
+end
+
+puts "Game Over!"
+
+```
+
+Finally, we’ll run it in the shell like we have done before and we see some fun results: 
+
+``` shell
+$ ruby random_game.rb
+What's your guess?
+10
+Too High!
+4 tries left!
+What's your guess?
+3
+Too Low!
+3 tries left!
+What's your guess?
+6
+YOU GOT IT!
+Game Over!
+```
+
+Cool! Ok, let’s try it again and try to hit the “ran out of tries” case?
+
+``` shell
+$ ruby random_game.rb
+What's your guess?
+2
+Too Low!
+4 tries left!
+What's your guess?
+9
+YOU GOT IT!
+Game Over!
+
+```
+
+OK… well, I’m seldom this lucky in real life… one more go at the game? 
+
+``` shell
+$ ruby random_game.rb
+What's your guess?
+3
+Too Low!
+4 tries left!
+What's your guess?
+8
+Too High!
+3 tries left!
+What's your guess?
+9
+Too High!
+2 tries left!
+What's your guess?
+10
+Too High!
+1 tries left!
+What's your guess?
+2
+Too Low!
+Game Over!
+
+```
+
+There we go! 
+
+I feel pretty good about this solution, but I’m sure I’ll learn some stuff in <u>Day 2</u> that will make me question that good-feeling.
+
+On the other hand, I only really dug into learning Ruby like… yesterday… so being able to run something silly with useful algorithms without too much frustration feels really good. And it should! 
+
+See you tomorrow! 
 
 ---
