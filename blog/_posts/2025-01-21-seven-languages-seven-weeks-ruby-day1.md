@@ -4,7 +4,7 @@ title: Seven Languages - Day 1 - Ruby
 Category: Programming
 tags: [ Ruby, Seven Languages, Programming, Learning ]
 description: >
-    Notebook from my first day of learning Ruby from Seven Languages in Seven Days by Bruce A. Tate.
+    Notebook from my first day of learning Ruby from <u>Seven Languages in Seven Weeks</u> by Bruce A. Tate.
 ---
 
 **Language 1:  Ruby**
