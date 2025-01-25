@@ -583,7 +583,8 @@ To illustrate this, the book provides this listing of the source code for `Tree`
 
 ```ruby
 class Tree
-  attr_accessor :children :node_name
+  attr_accessor :children 
+  attr_accessor :node_name
   
   def initialize(name, children=[])
     @children = children
@@ -878,9 +879,9 @@ Arrays will support queues and buffers using the `push` and `pop` methods combin
 
 <u>Stacks</u> use the `*.push()` and `*.pop` methods to push elements to the *end* of the array and pop them off the stack in reverse-order (Last-In-First-Out).
 
-<u>Buffers</u> can use `*.unshift()` methods to roll the elements along the array to the right and add a new value given by the argument of `*.unshift()` to the beginning of the array. Meanwhile, the `*shift` method will roll the array elements to the left, then remove and return the value initially at index 0. This would give you a ‘first-in-first-out (FIFO)’ buffer. 
+<u>Queues</u> could be implemented (a first-in-last-out structure) using a combination of `*unshift()` and `*.pop`, with new data arriving at array index 0 and the oldest (first-in) data popping off the end of the queue as a return value from `*.pop`.
 
-A <u>queue</u> could be implemented (a first-in-last-out structure) using a combination of `*unshift()` and `*.pop`, with new data arriving at array index 0 and the oldest (first-in) data popping off the end of the queue as a return value from `*.pop`.
+It also seems like linked lists could be implemented if the class `Integer` is modified at runtime to also include the link address or object ID of the next object. 
 
 
 
@@ -888,11 +889,53 @@ A <u>queue</u> could be implemented (a first-in-last-out structure) using a comb
 
 *1a. Print the contents of an array of sixteen numbers, four numbers at a time, using just `*.each`.*
 
+First, let’s construct the array programmatically in the REPL: 
+
+``` ruby
+irb(main):235> i = 0
+=> 0
+irb(main):236> a = []
+=> []
+irb(main):237* 16.times do
+irb(main):238*   a.push(2 * i)
+irb(main):239*   i = i + 1
+irb(main):240> end
+=> 16
+irb(main):241> a
+=> [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30]
+```
+
+Now we need to output four numbers per output row using just `*.each`:
+
+``` ruby
+irb(main):290> j = 0
+=> 0
+irb(main):291> a.each {|element| puts "#{a[j-3]}, #{a[j-2]}, #{a[j-1]}, #{a[j]}" if ((j + 1) % 4 == 0); j = j + 1}
+0, 2, 4, 6
+8, 10, 12, 14
+16, 18, 20, 22
+24, 26, 28, 30
+=> [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30]
+```
+
+Using the modulus is the classic way to solve this class of problem, but be careful to re-initialize the counting index `j` before using this one-liner. 
+
 
 
 
 
 *1b. Now, do the same with `*.each_slice` in `Enumerable`.*
+
+```ruby
+irb(main):298> a.each_slice(4) {|a| print "#{a}\n|"}
+[0, 2, 4, 6]
+|[8, 10, 12, 14]
+|[16, 18, 20, 22]
+|[24, 26, 28, 30]
+|=> [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30]
+```
+
+Golly, that was easier… although I had to use the `print` method or the `p` method to get the slices formatted correctly. 
 
 
 
@@ -900,11 +943,44 @@ A <u>queue</u> could be implemented (a first-in-last-out structure) using a comb
 
 *2. The `Tree` class was interesting, but it did not allow you to specify a new tree with a clean user interface. Let the initializer accept a nested structure of hashes. You should be able to specify a tree like this: `{'grandpa' => {'dad' => {'child 1' => {}, 'child 2' => {} }, 'uncle' => {'child 3' => {}, 'child 4' => {} } } }`.*
 
+The first thing we need to do is unpack the top-level hash and convert it into an array of a [`string`, `children_hash`] at the top level. 
+
+```ruby
+irb(main):021> nested_hash = {'grandpa' => {'dad' => {'child 1' => {}, 'child 2' => {} }, 'uncle' => {'child 3' => {}, 'child 4' => {} } } }
+=>
+{"grandpa" =>
+    ...
+
+irb(main):023> nested_hash.keys
+=> ["grandpa"]
+irb(main):032> nested_hash.values[0].keys
+=> ["dad", "uncle"]
+```
+
+From this, the node_name is assigned `string` and the children are listed as keys of the `children_hash`. 
+
+```ruby
+
+```
+
+Once the node name is assigned, the next nested hash to process can be assigned and iterated over to make more child trees.
+
+``` ruby
+#work in progress
+
+```
+
 
 
 
 
 *3. Write a simple `grep` that will print the lines of a file having any occurrences of a phrase anywhere in that line. You will need to do a simple regular expression match and read lines from a file. (This is surprisingly simple in Ruby.) If you want, include line numbers in the output.*
+
+``` ruby
+# Work in Progress!
+```
+
+
 
 
 
