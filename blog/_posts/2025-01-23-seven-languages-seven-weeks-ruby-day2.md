@@ -839,13 +839,17 @@ Surely there is more crazy stuff to come that really makes Ruby stand out. Time 
 
 *1. Find out how to access files with and without code blocks. What is the benefit of the code block?*
 
-
+``` ruby
+# work in progress.
+```
 
 
 
 *2. How would you translate a hash into an array?  Can you translate arrays to hashes?*
 
 An array could be considered a special, reduced case of a hash where the keys are simply the index integer values of the array. Similarly, an array could be expanded into a hash by assigning the indices as keys.
+
+*Edit:* An even simpler method is to use the `<hash>.to_a` method to represent the `hash` in an `array` format! Always learning around here… 
 
 
 
@@ -922,8 +926,6 @@ Using the modulus is the classic way to solve this class of problem, but be care
 
 
 
-
-
 *1b. Now, do the same with `*.each_slice` in `Enumerable`.*
 
 ```ruby
@@ -936,8 +938,6 @@ irb(main):298> a.each_slice(4) {|a| print "#{a}\n|"}
 ```
 
 Golly, that was easier… although I had to use the `print` method or the `p` method to get the slices formatted correctly. 
-
-
 
 
 
@@ -957,20 +957,71 @@ irb(main):032> nested_hash.values[0].keys
 => ["dad", "uncle"]
 ```
 
-From this, the node_name is assigned `string` and the children are listed as keys of the `children_hash`. 
-
-```ruby
-
-```
-
-Once the node name is assigned, the next nested hash to process can be assigned and iterated over to make more child trees.
+Ok, lets probe the properties of these structures a bit: 
 
 ``` ruby
-#work in progress
-
+irb(main):004> nested_hash['grandpa'].keys.class
+=> Array
+irb(main):005> nested_hash['grandpa'].values.class
+=> Array
 ```
 
+The trick for making this work is using a method we only tangentially touched on earlier:  `*.collect`.  `*.collect` is also an alias for `*.map` according to the Ruby API documentation. 
 
+``` ruby
+#tree_nested_input.rb
+class Tree
+  attr_accessor :children
+  attr_accessor :node_name
+
+  def initialize(nested_hash={})
+    @node_name = nested_hash.keys[0]
+    # the trick here is to use the `.collect` method to iterate as it accepts
+    # both the `array` and `hash` class methods. Using `.each` throws an error.
+    @children = nested_hash[node_name].collect{|k, v| Tree.new(k => v)}
+  end
+
+  def visit_all(&block)
+    visit &block
+    children.each {|c| c.visit_all &block}
+  end
+
+  def visit(&block)
+    block.call self
+  end
+end
+```
+
+Then we can run the code at the bottom of `tree_nested_input.rb` that looks like this: 
+
+```ruby
+nested_hash_family = {'grandpa' => {'dad' => {'child_1' => {}, 'child_2' => {} }, 'uncle' => {'child_1' => {}, 'child_2' => {} } } }
+
+ruby_tree = Tree.new(nested_hash_family)
+
+puts "visiting a node"
+
+ruby_tree.visit {|node| puts node.node_name}
+
+puts "Visiting entire tree."
+ruby_tree.visit_all {|node| puts "Name: #{node.node_name} children: #{node.children}"}
+```
+
+Running this whole listing results in the following console output. 
+
+``` shell
+$ ruby tree_nested_input.rb
+visiting a node
+grandpa
+Visiting entire tree.
+Name: grandpa children: [#<Tree:0x0000000109472480 @node_name="dad", @children=[#<Tree:0x0000000109472188 @node_name="child_1", @children=[]>, #<Tree:0x0000000109471d50 @node_name="child_2", @children=[]>]>, #<Tree:0x0000000109471bc0 @node_name="uncle", @children=[#<Tree:0x00000001094718c8 @node_name="child_1", @children=[]>, #<Tree:0x00000001094717b0 @node_name="child_2", @children=[]>]>]
+Name: dad children: [#<Tree:0x0000000109472188 @node_name="child_1", @children=[]>, #<Tree:0x0000000109471d50 @node_name="child_2", @children=[]>]
+Name: child_1 children: []
+Name: child_2 children: []
+Name: uncle children: [#<Tree:0x00000001094718c8 @node_name="child_1", @children=[]>, #<Tree:0x00000001094717b0 @node_name="child_2", @children=[]>]
+Name: child_1 children: []
+Name: child_2 children: []
+```
 
 
 
@@ -979,8 +1030,6 @@ Once the node name is assigned, the next nested hash to process can be assigned 
 ``` ruby
 # Work in Progress!
 ```
-
-
 
 
 
