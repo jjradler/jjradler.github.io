@@ -839,9 +839,24 @@ Surely there is more crazy stuff to come that really makes Ruby stand out. Time 
 
 *1. Find out how to access files with and without code blocks. What is the benefit of the code block?*
 
+There are multiple ways to do things in Ruby as I am finding out. Without code blocks, a file can be accessed and something can be done using a `do...end` statement where the whole file is loaded and for each line in the file, a block is executed. 
+
 ``` ruby
-# work in progress.
+# a method familiar to most people in every language is to open 
+# the File class object and do something with it. 
+# This takes three lines. 
+>> File.open('file.txt') do |file|
+  file.each_line {|line| puts line}
+end
 ```
+
+With code blocks, the file can be accessed and manipulated with a more terse syntax. 
+
+```ruby
+File.foreach('file.txt') {|line| puts line}
+```
+
+The code block offers the benefit of brevity and simplicity as well as allowing for iterating over the file without reading the entire file into memory at one time, which can be a game-changer with large text files or directories that need to be searched for a specific pattern-match (foreshadowing?)
 
 
 
@@ -849,7 +864,9 @@ Surely there is more crazy stuff to come that really makes Ruby stand out. Time 
 
 An array could be considered a special, reduced case of a hash where the keys are simply the index integer values of the array. Similarly, an array could be expanded into a hash by assigning the indices as keys.
 
-*Edit:* An even simpler method is to use the `<hash>.to_a` method to represent the `hash` in an `array` format! Always learning around here… 
+*Edit:* An even simpler method is to use the `<hash>.to_a` method to represent the `hash` in an `array` format! However, this only goes down one key-value pair layer. If the hash is *nested* it will still return an array element that is of datatype `Hash` for that element. An approach for tackling a nested hash structure might be to run `*.to_a` within the code block of a `*.collect` method call on the top-level hash structure. I should play around with this a bit more.
+
+ Always learning around here. 
 
 
 
@@ -885,7 +902,7 @@ Arrays will support queues and buffers using the `push` and `pop` methods combin
 
 <u>Queues</u> could be implemented (a first-in-last-out structure) using a combination of `*unshift()` and `*.pop`, with new data arriving at array index 0 and the oldest (first-in) data popping off the end of the queue as a return value from `*.pop`.
 
-It also seems like linked lists could be implemented if the class `Integer` is modified at runtime to also include the link address or object ID of the next object. 
+It also seems like linked lists could be implemented if the class `Integer` is modified at runtime to also include the link address or object ID of the next object object in the array.  
 
 
 
@@ -1027,13 +1044,42 @@ Name: child_2 children: []
 
 *3. Write a simple `grep` that will print the lines of a file having any occurrences of a phrase anywhere in that line. You will need to do a simple regular expression match and read lines from a file. (This is surprisingly simple in Ruby.) If you want, include line numbers in the output.*
 
+Following the discussion from above about opening and writing files, the simplest solution in as few lines of code as possible seems best here. To accomplish this, the `File` class or `IO` class method. According to the documentation for [`Ruby Std-lib 2.5.5`](https://ruby-doc.org/core-2.5.5/IO.html), the `File` class is the only standard subclass of `IO` and they are closely associated. Therefore, for the purposes of this exercise I would consider the `IO` or `File` classes to be interchangeable for the purposes of using the `*.readlines` method in `Ruby >= 2.5.5`. 
+
+Also, it seems best to run this from a file, so this will be written in `grep.rb` in the same directory (for now) as our test file, called `test_file.txt`. 
+
+For this example, I will just use a portion of the text from this very blog post in plaintext form to search for patterns, but this code is generalizable to other files as we use the array of input arguments (much like C, C++, or Python):  `ARGV[i]` where we would invoke the simple `grep` program as: `ruby grep.rb <regex_pattern> <file_name>` where our `<regex_pattern>` is a `Regex` (regular expression) string representing the pattern we want to find in file `<file_name>`. 
+
+The line index will be provided using the handy `*.each_with_index` method which yields a pair of objects in the iterative code block, `line` and `index`.
+
+We will also need to use a pattern-matching tool. In the (Ruby documentation for `Regexp`)[https://ruby-doc.org/core-2.5.8/Regexp.html] I found the `=~` operator, which is Ruby’s basic pattern match operator. In simple cases it seems to be at least roughly equivalent to applying the `Regex#match` method. It’s usage is `<String> =~ <regex_pattern>` where the return value is `nil` for no match and the `Integer` index of the pattern within the string otherwise. 
+
 ``` ruby
-# Work in Progress!
+regex_pattern = ARGV[0]
+file_name = ARGV[1]
+
+File.readlines(file_name).each_with_index {|line, index| puts "Line #{index + 1}: #{line}" if line =~ /#{regex_pattern}/}
 ```
 
+Finally, once I got it working, just for a little fun I added some colors to the terminal to make the line numbers easier to read (for me at least). There is a guide for how to do this very simply using the `puts` method in Ruby [here](https://dev.to/joshdevhub/terminal-colors-using-ruby-410p). 
 
+``` ruby
+regex_pattern = ARGV[0]
+file_name = ARGV[1]
+
+# \e[38;5;118m#{text}\e[0m changed the color to a bright yellow on my dark terminal background.
+File.readlines(file_name).each_with_index {|line, index| puts "\e[38;5;118mLine #{index + 1}:\e[0m #{line}" if line =~ /#{regex_pattern}/}
+```
+
+Running this on `test_file.txt` produces the output (where I was using a dark terminal background in iTerm2) : 
+
+![ruby-day2-grep-output](../../assets/img/ruby-day2-output-terminal.png)
+
+It looks like it works great, at least for basic alphanumeric searches!
 
 ---
+
+
 
 **Closing out Day 2:**
 
