@@ -134,7 +134,7 @@ Here we’ve created a `Vehicle` from a generic `Object` defined by `Io` itself.
 
 The object that is cloned is assigned to `Vehicle`. Again, it isn’t a class, it’s not a template, it’s a bona fide object called `Vehicle` based on the `Object` prototype.
 
-It sort of feels like the equipment locker in The Matrix (did you [take my advice]() from my posts on Ruby and watch The Matrix?!?)
+It sort of feels like the equipment locker in The Matrix (did you [take my advice](https://jjradler.github.io/blog/2025-01-27-seven-languages-seven-weeks-ruby-day3/) from my posts on Ruby and watch The Matrix?!?)
 
 ![lots-of-guns](../../assets/img/The_Matrix_1999_Guns_Lots_of_guns_Neo.gif)
 
