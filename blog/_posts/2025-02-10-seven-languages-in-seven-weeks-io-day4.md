@@ -5,6 +5,7 @@ Category: Programming
 tags: [ Io, Seven Languages, Programming, Learning, Prototype Languages ]
 description: >
     Notebook from my first day of learning Io (Day 4 overall) from <u>Seven Languages in Seven Weeks</u> by Bruce A. Tate.
+mermaid:  true
 ---
 
 **Language 2:  Io**
@@ -252,6 +253,8 @@ graph BT
 ```
 
 So in a prototype language, the flow is a little different. We would start by instantiating (cloning) the `Car` from `Vehicle`. Then we can update its description as we like. 
+
+
 
 ``` mermaid
 ---
